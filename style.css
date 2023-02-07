@@ -87,6 +87,7 @@ body {
 }
 .box {
   text-align: center;
+  margin: 20px;
 }
 .box h3 {
   font-size: 1rem;
@@ -241,7 +242,7 @@ body {
   background: rgba(6, 144, 165, 0.7);
 }
 
-.feed {
+/* .feed {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,12 +267,13 @@ body {
   font-size: 1rem;
   margin-top: 1rem;
   padding-left: 0.5rem;
-}
+} */
 
 .main-post {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 11px;
+  margin-top: 80px;
 }
 .post-box {
   width: 300px;
